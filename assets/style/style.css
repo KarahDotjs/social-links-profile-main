@@ -1,0 +1,89 @@
+:root {
+--Green: hsl(75, 94%, 57%);
+
+--White: hsl(0, 0%, 100%);
+
+--Grey-700: hsl(0, 0%, 20%);
+--Grey-800: hsl(0, 0%, 12%);
+--Grey-900: hsl(0, 0%, 8%);
+
+}
+
+@font-face {
+    font-family: Inter-variable;
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Inter-variable;
+    font-size: 14px;
+    
+}
+
+.card-container {
+    width: 400px;
+    padding: 35px;
+    border-radius: 10px;
+    background-color:var(--Grey-900) ;
+    margin: 0px auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: var(--White) ;
+      
+}
+
+img {
+    border-radius: 100%;
+    width: 100px;
+    object-fit: cover;
+    object-fit: top;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.description > p {
+    color:var(--Green) ;
+      
+}
+.profil-infos{
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.profil-infos button {
+    font-size: 14px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:var(--Grey-700);
+    color: white;
+    border: none;
+    
+}
+
+/* 
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
