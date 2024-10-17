@@ -6,12 +6,9 @@
   --Grey-700: hsl(0, 0%, 20%);
   --Grey-800: hsl(0, 0%, 12%);
   --Grey-900: hsl(0, 0%, 8%);
+  --font: "Inter", sans-serif;
 }
 
-@font-face {
-  font-family: Inter-variable;
-  src: url(../fonts/Inter-VariableFont_slnt\wght.ttf);
-}
 
 * {
   box-sizing: border-box;
@@ -19,7 +16,7 @@
 
 body {
   background-color: black;
-  font-family: Inter-variable;
+  font-family:var(--font);
   font-size: 14px;
 }
 
@@ -76,6 +73,7 @@ h1 {
   background-color: var(--Grey-700);
   color: white;
   border: none;
+  font-family: ;
 }
 
 
