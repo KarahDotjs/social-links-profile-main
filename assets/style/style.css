@@ -9,28 +9,23 @@
   --font: "Inter", sans-serif;
 }
 
-
-* {
-  box-sizing: border-box;
-}
-
 body {
   background-color: black;
-  font-family:var(--font);
-  font-size: 14px;
+  font-family: var(--font);
+  font-size: 0.875rem;
 }
 
 .card-container {
   width: 400px;
-  padding: 35px;
-  border-radius: 10px;
+  padding: 30px;
+  border-radius :30px;
   background-color: var(--Grey-900);
   margin: 0px auto;
   margin-top: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   color: var(--White);
 }
 
@@ -53,33 +48,38 @@ img {
 
 h1 {
   text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .description > p {
   color: var(--Green);
 }
 .links-infos {
- width: 250px;
+  width: 250px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 .links-infos button {
-  font-size: 14px;
+  font-size: 1rem;
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
   background-color: var(--Grey-700);
   color: white;
   border: none;
-  
 }
 
+button a {
+    text-decoration: none;
+    color: var(--White)
+}
 
 .attribution {
-    margin-top: 10px;
-  font-size: 14px;
+  margin-top: 10px;
+  font-size: 0.875rem;
   text-align: center;
   color: var(--White);
 }
